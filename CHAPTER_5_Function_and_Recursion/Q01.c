@@ -34,9 +34,9 @@ int main()
 // defining function that i created
 float average_number_calclator(int x, int y, int z)
 {
-    // created average variavle to calcualte 
+    // created average variavle to calcualte
     // the average of three number
-    float average = (float)(x + y + z) / 2;  // type casted as a float
+    float average = (float)(x + y + z) / 2; // type casted as a float
 
     // returning average
     return average;

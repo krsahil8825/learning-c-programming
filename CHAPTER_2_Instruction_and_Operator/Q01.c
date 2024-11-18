@@ -9,6 +9,6 @@
 // one digit character
 
 // here a main thing option no. 2
-// is valid. it dose not print 3^3 = 9 
-// but it is valid i.e. the compiler 
+// is valid. it dose not print 3^3 = 9
+// but it is valid i.e. the compiler
 // dose not show error

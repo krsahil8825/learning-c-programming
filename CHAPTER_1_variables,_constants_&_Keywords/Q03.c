@@ -1,8 +1,9 @@
-// write a program that convert celcius into fahrenheit 
+// write a program that convert celcius into fahrenheit
 
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
+int main()
+{
     printf("This program help us to change celcius to farenhight\n");
 
     // creating variable

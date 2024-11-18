@@ -5,10 +5,9 @@
 // answer
 // 7 7 5
 // this happen because the instruction pass in the compiler
-// answer is 7 7 5 . this happen because the instruction pass 
-// in gcc compiler is right to left not left to right the 
-// output may changed according to compiler 
-
+// answer is 7 7 5 . this happen because the instruction pass
+// in gcc compiler is right to left not left to right the
+// output may changed according to compiler
 
 // answer verification
 #include <stdio.h>

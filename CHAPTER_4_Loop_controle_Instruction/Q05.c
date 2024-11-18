@@ -6,8 +6,8 @@
 int main()
 {
     printf("This program is used to add first 10 natural numbers\n");
-    
-    // making two variable number1 = 0 and 
+
+    // making two variable number1 = 0 and
     // number2 =0
     // number1 used for storing total
     int number1 = 0, number2 = 0;

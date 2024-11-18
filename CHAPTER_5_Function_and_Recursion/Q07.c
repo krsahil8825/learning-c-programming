@@ -38,10 +38,10 @@ void printing_paatern(int a)
     }
 
     // this below line create recursion
-    printing_paatern(a-1);
+    printing_paatern(a - 1);
 
     // created loop to print pattern
-    for (int i = 0; i < (2*a - 1); i++)
+    for (int i = 0; i < (2 * a - 1); i++)
     {
         printf("*");
     }

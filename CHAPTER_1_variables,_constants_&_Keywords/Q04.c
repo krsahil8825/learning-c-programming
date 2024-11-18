@@ -1,4 +1,4 @@
-// write code to calculate simple intrest 
+// write code to calculate simple intrest
 // and total amount i.e. simple intrest + principal
 
 #include <stdio.h>

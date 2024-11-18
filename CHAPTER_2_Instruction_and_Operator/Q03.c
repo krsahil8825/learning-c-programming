@@ -6,7 +6,7 @@
 int main()
 {
     printf("This program help to find a number is divisible by 97 or not\n");
-    
+
     // user instruction
     printf(" if the answer is equal to 0. It means the given number is divisible by 97\n");
     printf(" if the answer is not equal to 0. It means the given number is not divisible by 97\n");

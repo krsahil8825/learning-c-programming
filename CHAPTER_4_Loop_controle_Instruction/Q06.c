@@ -6,7 +6,7 @@
 int main()
 {
     printf("This program is used to find sum of first 10 natural numbers\n");
-    
+
     // ----> DO-WHILE LOOP <----
 
     // making two variable number1 = 0 and

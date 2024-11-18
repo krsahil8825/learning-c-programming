@@ -3,5 +3,5 @@
 // true or false
 
 // answer
-// true, any thing can done by any one type of loop 
+// true, any thing can done by any one type of loop
 // are also done with other type of loop

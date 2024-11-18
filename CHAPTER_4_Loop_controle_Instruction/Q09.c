@@ -7,7 +7,7 @@
 int main()
 {
     printf("This program is used to calculate factorial of given number\n");
-    
+
     // making two variable number1 and factorial
     // number1 is used for taking and storing input of user
     // until it gows in loop. factorial is used for storing

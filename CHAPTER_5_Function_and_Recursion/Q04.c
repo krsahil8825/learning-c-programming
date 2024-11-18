@@ -31,7 +31,7 @@ int Fibonacci(int a)
     // created this variable to store result
     int result;
 
-    // created if else if and else to calculate the number 
+    // created if else if and else to calculate the number
     if (a == 0)
     {
         return 0;

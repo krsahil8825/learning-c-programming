@@ -21,16 +21,16 @@ int main()
 
     // calling function
     printf("The temperature in fahrenhight is %f\n", temperature_converter(temperature));
-    
+
     return 0;
 }
 
 // function defination
 float temperature_converter(int celcius)
 {
-    // created fahrenhight variable to change 
-    //the temperature in celcius to fahrenheit
-    float fahrenheit = (float)(celcius * (9.0 / 5.0)) + 32.0; //typecasted into flaot
+    // created fahrenhight variable to change
+    // the temperature in celcius to fahrenheit
+    float fahrenheit = (float)(celcius * (9.0 / 5.0)) + 32.0; // typecasted into flaot
 
     // returning fahrenheit
     return fahrenheit;

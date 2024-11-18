@@ -31,7 +31,7 @@ int adding_natural_number(int a)
     // created adding_number variable to calculate the sum
     int adding_number;
 
-    // created if statement to calcutate the sum 
+    // created if statement to calcutate the sum
     // in this if statement i used recursion
     if (a == 1)
     {

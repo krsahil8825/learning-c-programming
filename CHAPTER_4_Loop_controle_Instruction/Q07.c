@@ -7,7 +7,7 @@
 int main()
 {
     printf("This program is used to find sum of numbers occuring in the multiplication table of 8\n");
-    
+
     // creating two variable
     // number1 =8
     // total = 0
