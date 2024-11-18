@@ -3,7 +3,6 @@
 int main(){
     int height;
     int Number = 1;
-    int resetbumber = 1;
     printf("This program print right trangle patterns with star\n");
 
     printf("Enter the Height in number:- ");
