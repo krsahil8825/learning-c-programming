@@ -1,4 +1,9 @@
-// write a program to print right triangle pattern with star
+// write a program to print right triangle pattern with star like below
+
+// * * * * 
+// * * * 
+// * * 
+// * 
 
 // solution:
 #include <stdio.h>
@@ -10,7 +15,7 @@ int main()
     int height;
 
     // user instruction
-    printf("This program print right trangle patterns with star\n");
+    printf("This program print downward facing right trangle patterns with star\n");
 
     // taking input from user
     printf("Enter the Height in number:- ");

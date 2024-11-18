@@ -1,4 +1,13 @@
-// write a program to print the following pattern
+// write a program to print the following pattern like below
+
+// A 
+// A B 
+// A B C 
+// A B C D 
+// A B C D E 
+// A B C D E F 
+// A B C D E F G 
+// A B C D E F G H 
 
 // ASCII value is used to print the alphabets
 
@@ -15,7 +24,7 @@ int main()
     char letter = 65;
 
     // user instruction
-    printf("This program print right trangle patterns with star\n");
+    printf("This program print right trangle patterns with letters\n");
 
     // taking input from user
     printf("Enter the Height in number:- ");

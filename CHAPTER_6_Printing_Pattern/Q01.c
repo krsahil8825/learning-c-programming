@@ -1,4 +1,12 @@
-// write a program to print a rectangular pattern with star
+// write a program to print a rectangular pattern with star likie below
+// * * * * * * 
+// * * * * * * 
+// * * * * * * 
+// * * * * * * 
+// * * * * * * 
+// * * * * * * 
+// * * * * * * 
+// * * * * * * 
 
 // solution:
 #include <stdio.h>

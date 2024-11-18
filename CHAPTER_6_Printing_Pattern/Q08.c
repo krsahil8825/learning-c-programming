@@ -1,4 +1,10 @@
-// write a program to print rectangular patterns with numbers
+// write a program to print rectangular patterns with numbers like below
+
+// A B C D E F G 
+// A B C D E F G 
+// A B C D E F G 
+// A B C D E F G 
+// A B C D E F G 
 
 // used ASCII value of A to Z to print the pattern
 

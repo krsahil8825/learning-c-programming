@@ -1,4 +1,10 @@
-// write a program to print the following pattern
+// write a program to print the following pattern like below
+
+// 1 
+// 1 3 
+// 1 3 5 
+// 1 3 5 7 
+// 1 3 5 7 9
 
 // solution:
 #include <stdio.h>
@@ -12,7 +18,7 @@ int main()
     int Number = 1;
 
     // user instruction
-    printf("This program print right trangle patterns with star\n");
+    printf("This program print right trangle patterns with odd number\n");
 
     // taking input from user
     printf("Enter the Height in number:- ");

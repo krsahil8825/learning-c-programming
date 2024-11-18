@@ -1,4 +1,10 @@
-// write a program to print rectangular patterns with numbers
+// write a program to print rectangular patterns with numbers like below
+
+// 1 2 3 4 5 6 
+// 1 2 3 4 5 6 
+// 1 2 3 4 5 6 
+// 1 2 3 4 5 6 
+// 1 2 3 4 5 6 
 
 // solution:
 #include <stdio.h>

@@ -1,4 +1,10 @@
-// write a program to print right triangle patterns with star
+// write a program to print right triangle patterns with star like below
+
+// * 
+// * * 
+// * * * 
+// * * * * 
+// * * * * * 
 
 // solution:
 #include <stdio.h>
