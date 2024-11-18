@@ -24,6 +24,7 @@ int main()
     // loop to print pattern
     while (Number <= height)
     {
+        letter = 65;
         for (int i = 1; i <= Number; i++)
         {
             printf("%c ", letter);
