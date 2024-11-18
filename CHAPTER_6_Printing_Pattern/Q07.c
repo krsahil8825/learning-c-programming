@@ -19,14 +19,14 @@ int main()
     scanf("%d", &height);
 
     // loop to print pattern
-    while (Number <= (height*2))
+    while (Number <= (height * 2))
     {
-        for (int i = 1; i <= Number; i+=2)
+        for (int i = 1; i <= Number; i += 2)
         {
             printf("%d ", i);
         }
         printf("\n");
-        Number+=2;
+        Number += 2;
     }
     return 0;
 }
