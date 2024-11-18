@@ -23,7 +23,7 @@ int main()
     {
         for (int i = 1; i <= Number; i++)
         {
-            printf("%d", i);
+            printf("%d ", i);
         }
         printf("\n");
         Number++;

@@ -26,7 +26,7 @@ int main()
     {
         for (int j = 1; j <= breadth; j++)
         {
-            printf("*");
+            printf("* ");
         }
         printf("\n");
     }
