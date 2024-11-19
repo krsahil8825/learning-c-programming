@@ -13,7 +13,6 @@ int main()
 {
     // inisalized variable
     int length, breadth;
-
     printf("This program prints hollow rectangle\n");
 
     // taking input from user
