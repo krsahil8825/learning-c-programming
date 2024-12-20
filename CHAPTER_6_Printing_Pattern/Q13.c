@@ -1,27 +1,37 @@
+// write a program to print a "X" sign pattern with star likie below
+// *       *
+//   *   *
+//     *
+//   *   *
+// *       *
+
 #include <stdio.h>
-#include <math.h>
 
 int main()
 {
-    int i, j,k, length, breadth;
+    // creating variable
+    int i, j, k, length;
 
+    // taking input from user
     printf("Enter the Value of Length:- ");
     scanf("%d", &length);
+
+    // assigning value to k variable
     k = length;
+
+    // created loop for printing the given pattern
     for (i = 1; i <= length; i++)
     {
         for (j = 1; j <= length; j++)
         {
-            if (i == j || k == j )
+            if (i == j || k == j)
             {
                 printf("* ");
-
             }
             else
             {
                 printf("  ");
             }
-            
         }
         k--;
         printf("\n");
