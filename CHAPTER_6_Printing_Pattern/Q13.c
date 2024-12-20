@@ -13,7 +13,7 @@ int main()
     int i, j, k, length;
 
     // taking input from user
-    printf("Enter the Value of Length:- ");
+    printf("Enter the Value of Length. \n(please enter odd number for better result):- ");
     scanf("%d", &length);
 
     // assigning value to k variable
