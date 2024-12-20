@@ -8,64 +8,43 @@
 
 int main()
 {
-    // crated variable
-    int i, j, k, length;
-
-    // it is used to print the numbers
-    int l;
+     // crated variable
+    int i, j, length;
+    
+    // it is use to print decreasing numbers in 3rd for loop
+    int decreaing_no;
 
     // taking input from user
     printf("Enter the value of length:- ");
     scanf("%d", &length);
 
+    int no_of_spaces = length - 1;
     // created loop and logic for printing the pattern
+
     for (i = 1; i <= length; i++)
     {
-        // assigned length value to k
-        k = length + 1 - i;
-
-        // initialize value to l variable
-        l = 1;
-
-        /*
-        The below for loop print this
-              1
-            1 2
-          1 2 3
-        1 2 3 4
-
-        */
-
-        for (j = 1; j <= length; j++)
+        // this loop pint spaces
+        for (j = 1; j <= no_of_spaces; j++)
         {
-            if (j >= k)
-            {
-                printf("%d ", l);
-                l++;
-            }
-            else
-            {
-                printf("  ");
-            }
+            printf("  ");
+        }
+        no_of_spaces--;
+
+        // this loop print numbers in increasing order
+        for (j = 1; j <= i; j++)
+        {
+            printf("%d ", j);
         }
 
-        l = i - 1; // l variable is reused in next for loop
+        // initalizing this variable of next loop
+        decreaing_no = i -1;
 
-        /*
-        The below for loop print this
-
-                //in this line nothing is printed
-        1
-        2 1
-        3 2 1
-
-        */
-
-        for (k = 1; k < i; k++)
+        // this loop print numbers in decresing order
+        for (j = 1; j < i; j++)
         {
-            printf("%d ", l--);
+            printf("%d ", decreaing_no--);
         }
-
+        
         printf("\n");
     }
 
