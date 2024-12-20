@@ -1,9 +1,9 @@
-// write a program to print the following pattern with numbers which is given below
-//         1 
-//       1 2 3 
-//     1 2 3 4 5 
-//   1 2 3 4 5 6 7 
-// 1 2 3 4 5 6 7 8 9 
+// write a program to print the following pattern with letters which is given below
+//         A 
+//       A B C 
+//     A B C D E 
+//   A B C D E F G 
+// A B C D E F G H I 
 
 #include <stdio.h>
 
@@ -11,6 +11,10 @@ int main()
 {
     // crated variable
     int i, j, length;
+
+    // created character variable whose value is "A"
+    // as per ASCII
+    char letter = 65;
 
     // taking input from user
     printf("Enter the value of length:- ");
@@ -31,7 +35,7 @@ int main()
         // this loop print numbers
         for (j = 1; j <= no_of_stars; j++)
         {
-            printf("%d ", j);
+            printf("%c ", letter + j -1);
         }
         no_of_stars += 2;
 
