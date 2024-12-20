@@ -8,9 +8,9 @@
 
 int main()
 {
-     // crated variable
+    // crated variable
     int i, j, length;
-    
+
     // it is use to print decreasing numbers in 3rd for loop
     int decreaing_no;
 
@@ -23,6 +23,8 @@ int main()
 
     for (i = 1; i <= length; i++)
     {
+        //  ---------Here each J variable is independent in all loops----------------
+
         // this loop pint spaces
         for (j = 1; j <= no_of_spaces; j++)
         {
@@ -37,14 +39,14 @@ int main()
         }
 
         // initalizing this variable of next loop
-        decreaing_no = i -1;
+        decreaing_no = i - 1;
 
         // this loop print numbers in decresing order
         for (j = 1; j < i; j++)
         {
             printf("%d ", decreaing_no--);
         }
-        
+
         printf("\n");
     }
 
