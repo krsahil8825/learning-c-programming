@@ -8,6 +8,9 @@ void tentimes(int *x);
 
 int main()
 {
+    // user instruction
+    printf("This program is used to find 10 times of input number by user\n");
+    
     // created this variable to store input from user
     int a;
 
