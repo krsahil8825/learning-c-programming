@@ -1,4 +1,4 @@
-// write a program to print the following pattern with numbers which is given below
+// write a program to print the following pattern with letters which is given below
 //         A 
 //       A B A 
 //     A B C B A 
