@@ -1,9 +1,13 @@
 // write a program to print the following pattern with numbers which is given below
-// 1 2 3 4 5 6 7 8 9 
-// 1 2 3 4   6 7 8 9 
-// 1 2 3       7 8 9 
-// 1 2           8 9 
-// 1               9 
+// 1 2 3 4 5 6 7 8 9 8 7 6 5 4 3 2 1 
+// 1 2 3 4 5 6 7 8   8 7 6 5 4 3 2 1 
+// 1 2 3 4 5 6 7       7 6 5 4 3 2 1 
+// 1 2 3 4 5 6           6 5 4 3 2 1 
+// 1 2 3 4 5               5 4 3 2 1 
+// 1 2 3 4                   4 3 2 1 
+// 1 2 3                       3 2 1 
+// 1 2                           2 1 
+// 1                               1
 
 #include <stdio.h>
 
@@ -31,7 +35,15 @@ int main()
     // this loop prints first line only
     for (i = 1; i <= length + length - 1; i++)
     {
+        if (i< length)
+        {
         printf("%d ", natural_number++);
+        }
+        else if (i >=length)
+        {
+        printf("%d ", natural_number--);
+        }
+        
     }
 
     // printing new line
@@ -43,7 +55,7 @@ int main()
         // initalizing this variable again to reuse it
         natural_number = 1;
 
-        // this loop print numbers
+        // this loop print number in increasing order
         for (j = 1; j <= visible_number; j++)
         {
             printf("%d ", natural_number++);
@@ -53,13 +65,15 @@ int main()
         for (j = 1; j <= invisible_number_or_spaces; j++)
         {
             printf("  ");
-            natural_number++;
         }
 
-        // this loop prints numbers
+        // here i used decrement befor going to loop because when this number getout from privious loop it is increased by 1
+        natural_number--;
+
+        // this loop prints stars
         for (j = 1; j <= visible_number; j++)
         {
-            printf("%d ", natural_number++);
+            printf("%d ", natural_number--);
         }
 
         // increment and decrement and new line according to logic of pattern

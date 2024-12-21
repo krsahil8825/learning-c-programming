@@ -45,7 +45,7 @@ int main()
         // initalizing this variable again to reuse it
         letters = 65;
 
-        // this loop print stars
+        // this loop print letters
         for (j = 1; j <= visible_letters; j++)
         {
             printf("%c ", letters++);
@@ -58,7 +58,7 @@ int main()
             letters++;
         }
 
-        // this loop prints stars
+        // this loop prints letters
         for (j = 1; j <= visible_letters; j++)
         {
             printf("%c ", letters++);
