@@ -1,10 +1,11 @@
-// Write a program to print the address of a variable. Use this address to get the 
+// Write a program to print the address of a variable. Use this address to get the
 // value of the variable. and also print the value of that variable
 
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
-    int i=5;
+int main()
+{
+    int i = 5;
     int *j = &i;
     printf("The address of i is %p \n", &i);
     printf("The value of j is %d\n", *j);
