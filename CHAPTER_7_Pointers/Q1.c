@@ -1,5 +1,5 @@
 // Write a program to print the address of a variable. Use this address to get the 
-// value of the variable.
+// value of the variable. and also print the value of that variable
 
 #include<stdio.h>
 
