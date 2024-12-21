@@ -1,29 +1,42 @@
 #include <stdio.h>
-#include <math.h>
 
 int main()
 {
-    int i, j,k, length, breadth;
+    int number, loop_count, minimum, i, j, a, b;
 
-    printf("Enter the Value of Length:- ");
-    scanf("%d", &length);
-    k = length;
-    for (i = 1; i <= length; i++)
+    // taking input from user
+    printf("Enter the number:- ");
+    scanf("%d", &number);
+
+    loop_count = number + number - 1;
+
+    for (i = 1; i <= loop_count; i++)
     {
-        for (j = 1; j <= length; j++)
-        {
-            if (i == j || k == j )
-            {
-                printf("* ");
 
+        for (j = 1; j <= loop_count; j++)
+        {
+            a = i;
+            if (i > number)
+            {
+                a = number + number - i;
+            }
+
+            b = j;
+            if (j > number)
+            {
+                b = number + number - j;
+            }
+
+            if (a <= b)
+            {
+                minimum = a;
             }
             else
             {
-                printf("  ");
+                minimum = b;
             }
-            
+            printf("%d", minimum);
         }
-        k--;
         printf("\n");
     }
 
