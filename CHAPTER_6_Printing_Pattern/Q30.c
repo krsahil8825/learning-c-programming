@@ -1,16 +1,17 @@
 // write a program to print the following pattern with numbers which is given below
-// 1 1 1 1 1 1 1 
-// 1 2 2 2 2 2 1 
-// 1 2 3 3 3 2 1 
-// 1 2 3 4 3 2 1 
-// 1 2 3 3 3 2 1 
-// 1 2 2 2 2 2 1 
-// 1 1 1 1 1 1 1 
+// 1 1 1 1 1 1 1
+// 1 2 2 2 2 2 1
+// 1 2 3 3 3 2 1
+// 1 2 3 4 3 2 1
+// 1 2 3 3 3 2 1
+// 1 2 2 2 2 2 1
+// 1 1 1 1 1 1 1
 
 #include <stdio.h>
 
 int main()
 {
+    // declering variables
     int length, length_half, minimum_value, x_axis, y_axis, i, j;
 
     // taking input from user
@@ -24,23 +25,26 @@ int main()
         printf("length is increased by 1 because you enterd even number now length is = %d\n", length);
     }
 
-    length_half = (length+1) / 2;
+    // initilizing this variable
+    length_half = (length + 1) / 2;
 
+    // created loop for print the patern
     for (i = 1; i <= length; i++)
     {
 
+        // this loop help me to build the logic of the loop
         for (j = 1; j <= length; j++)
         {
             x_axis = i;
             if (i > length_half)
             {
-                x_axis = length +1 - i;
+                x_axis = length + 1 - i;
             }
 
             y_axis = j;
             if (j > length_half)
             {
-                y_axis = length +1 - j;
+                y_axis = length + 1 - j;
             }
 
             if (x_axis <= y_axis)
@@ -51,8 +55,10 @@ int main()
             {
                 minimum_value = y_axis;
             }
+
             printf("%d ", minimum_value);
         }
+
         printf("\n");
     }
 
