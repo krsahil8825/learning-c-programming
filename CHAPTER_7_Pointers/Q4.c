@@ -8,7 +8,7 @@ void swap(int *x, int *y);
 int main()
 {
     // user instruction
-    printf("This program is used swap value of a to b and b to a\n");
+    printf("This program is used to swap value of a to b and b to a\n");
     
     // created this variable to store input from user
     int a, b;
